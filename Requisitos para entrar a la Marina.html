@@ -1,0 +1,133 @@
+<html>
+<head>
+<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+			text-align: center;
+			background: linear-gradient(135deg, #4BB543, #1E90FF);
+			padding: 20px;
+			border-radius: 10px;
+		}
+		.image {
+			margin-top: 20px;
+			border: 2px solid yellow;
+			border-radius: 5px;
+		}
+		.text {
+			margin-top: 4px;
+			text-align: left;
+			background-color: white;
+			padding: 10px;
+			border: 4px solid #B80000;
+			border-radius: 5px;
+		}
+		
+		.container {
+			text-align: center;
+		}
+		.image-text {
+			margin-top: 10px;
+			font-size: 18px;
+			color: #000000;
+		}
+			#loader {
+						position: fixed;
+						left: 0;
+						top: 0;
+						width: 100%;
+						height: 100%;
+						z-index: 9999;
+						background-color: #fff;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+
+					#loader img {
+						width: 500px;
+						height: 243px;
+					}
+	</style>
+	<title>Requisitos para entrar a la Marina</title>
+	<script>
+		// Cambia el fondo entre verde y azul cada 5 segundos
+		setInterval(function() {
+			var container = document.querySelector('.container');
+			var color = container.style.background.includes('#4BB543') ? '#1E90FF' : '#4BB543';
+			container.style.background = 'linear-gradient(135deg, ' + color + ', #1E90FF)';
+		}, 5000);
+	</script>
+</head>
+<body>
+				<div id="loader">
+					<img src="images/Loading.gif" alt="Loading...">
+				</div>
+<body>
+	<div class="container">
+		<img src="images/requisitos.jpg" width="600" height="500" class="image">
+
+		<div class="text">
+				<center><p><font size="6" color="51091E">
+					Requisitos para entrar a la Marina
+				</p></center></font>
+			<p>
+			Si alguna vez te has preguntado cuáles son los requisitos para entrar a la Marina en México, 
+			en esta pagina web te dire todo lo que necesitas saber sobre las características, el perfil, la educación 
+			y demás información para pertenecer a esta importante rama de las Fuerzas Armadas de México.</p>
+				<ul type="1">
+					<li>Edad mínima de 18 y máxima de 30 años.</li>
+					<li>Ser mexicano por nacimiento.</li>
+					<li>Estatura mínima en mujeres de 1.55 metros y de 1.63 metros en hombres.</li>
+					<li>Credencial de elector (INE).</li>
+					<li>Comprobante de domicilio.</li>
+					<li>Cartilla de servicio militar.</li>
+					<li>CURP.</li>
+					<li>Índice de masa corporal entre 18.5 y 24.9.</li>
+					<li>Aprobar los exámenes clínicos y de perfil psicométrico.</li>
+					<li>Declaración de no antecedentes penales.</li>
+					<li>Acta de nacimiento.</li>
+					<li>Certificado de últimos estudios.</li>
+					<li>Registro Federal de Contribuyentes (RFC).</li>
+					<li>Preparatoria o bachillerato terminado.</li>
+					</li>
+				</ul>
+					<p>Esta es una profesión de alto desempeño físico y mental, la cual requiere de un alto grado de disciplina y
+					compromiso para poder servir en pro de la nación. Estas son las características que se requieren para pertenecer 
+					a las fuerzas armadas de la Marina Armada de México.</p>
+				<ul type="1">
+					<li>Buen estado emocional y psicológico</li>
+					<li>Adaptable a las circunstancias</li>
+					<li>Sentido de responsabilidad y ética</li>
+					<li>Resistencia física y mental</li>
+					<li>Capacidad de trabajar de manera eficiente en equipo</li>
+					<li>Habilidad de resolución de problemas</li>
+					<li>Capacidad de reacción rápida</li>
+					<li>Excelente estado físico, de visión, audición y reflejos</li>
+					<li>Energía</li>
+					<li>Decisión</li>
+					<li>Preparación para accionar o viajar a cualquier horario, condición y lugar</li>
+					<li>Disposición para seguir órdenes de los superiores</li>
+					<li>Tolerancia</li>
+					<li>Disponibilidad de horarios, de viajar y de cambio de residencia temporal</li>
+					<li>Vocación de servicio a México y a su población</li>
+				</ul>
+		</div>
+	</div>
+</body>
+<body>
+	<a href="javascript:history.back()">
+		<center><img src="images/azul.png" alt="Regresar" height="98" width="336"></center>
+	</a>
+</body>
+<script>
+				// Ocultar la pantalla de carga después de 8 segundos
+				setTimeout(function() {
+					var loader = document.getElementById("loader");
+					loader.style.display = "none"; // Oculta la pantalla de carga
+				}, 2000);
+			</script>
+		</body>
+</html>

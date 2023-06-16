@@ -1,0 +1,140 @@
+﻿<html>
+<head>
+<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+			text-align: center;
+			background: linear-gradient(135deg, #4BB543, #1E90FF);
+			padding: 20px;
+			border-radius: 10px;
+		}
+		.image {
+			margin-top: 20px;
+			border: 2px solid yellow;
+			border-radius: 5px;
+		}
+		.text {
+			margin-top: 4px;
+			text-align: left;
+			background-color: white;
+			padding: 10px;
+			border: 4px solid #B80000;
+			border-radius: 5px;
+		}
+		
+		.container {
+			text-align: center;
+		}
+		.image-text {
+			margin-top: 10px;
+			font-size: 18px;
+			color: #000000;
+		}
+			#loader {
+						position: fixed;
+						left: 0;
+						top: 0;
+						width: 100%;
+						height: 100%;
+						z-index: 9999;
+						background-color: #fff;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+
+					#loader img {
+						width: 500px;
+						height: 243px;
+					}
+	</style>
+	<title>Cursos de Adiestramiento</title>
+	<script>
+		// Cambia el fondo entre verde y azul cada 5 segundos
+		setInterval(function() {
+			var container = document.querySelector('.container');
+			var color = container.style.background.includes('#4BB543') ? '#1E90FF' : '#4BB543';
+			container.style.background = 'linear-gradient(135deg, ' + color + ', #1E90FF)';
+		}, 5000);
+	</script>
+</head>
+<body>
+				<div id="loader">
+					<img src="images/Loading.gif" alt="Loading...">
+				</div>
+<body>
+	<div class="container">
+		<img src="images/adiestramiento.png" width="600" height="500" class="image">
+
+		<div class="text">
+				<center><p><font size="6" color="51091E">
+					Cursos de Adiestramiento
+				</p></center></font>
+			<p>
+				1. Cursos de Infiltración Aérea.
+				<ul>
+					<li>Operaciones Aeromóviles.</li>
+					<li>Básico de Paracaidismo estático.</li>
+					<li>Doblado y mantenimiento de paracaídas.</li>
+					<li>Maestro de Salto estático.</li>
+					<li>Infiltración en Caída libre a Gran Altura.</li>
+					<li>Curso de Salto e Instructor de Caída Libre a Gran Altura.</li>
+					<li>Curso de Instructor de Rapell.</li>
+					<li>Curso de Soga rápida.</li>
+				</ul>
+
+				2. Cursos de Operaciones Especiales.
+				<ul>
+					<li>Buceo de Combate (regulado por ESCOSUB).</li>
+					<li>Comandos de IM.</li>
+					<li>Fuerzas Especiales.</li>
+				</ul>
+
+				3. Cursos de Operaciones de Seguridad.
+				<ul>
+					<li>Contra narcotráfico.</li>
+					<li>Seguridad a Instalaciones Estratégicas.</li>
+					<li>Apoyo a las Fuerzas de Seguridad.</li>
+					<li>Seguridad a Funcionarios.</li>
+					<li>Localización y Neutralización de Explosivos.</li>
+				</ul>
+
+				4. Cursos de las Técnicas de Tiro.
+				<ul>
+					<li>Tiro Básico de Combate.</li>
+					<li>Tiro de Combate.</li>
+					<li>Tiro de Reacción.</li>
+					<li>Francotiradores.</li>
+				</ul>
+
+				Datos curiosos:
+				<ul>
+					<li>El examen físico consiste en abdominales, planchas, natación 50 metros (realizándose en la Poza Castelli con salto al mar), atletismo 1500 metros y salto largo sin impulso. Barras (Hombres) y suspensión en Barras (Mujeres).</li>
+					<li>Los ejercicios que se llevan a cabo destacan los de mitigación de desastres y ayuda humanitaria, operaciones de guerra de superficie; antisubmarina, antiaérea, operaciones anfibias, expedicionarias y de reconocimiento, además de entrenamientos de cooperación con oportunidad de fomentar la formación de alto mando.</li>
+					<li>La infantería de marina tuvo un elemento conocido como "El Marino Loko", ya que al momento de atrapar a un integrante del CDN, lo vestía de mujer para humillarlo.</li>
+					<li>Existen canciones que hablan sobre la vida de algunos marinos.</li>
+					<li>Las fuerzas militares mexicanas son excepcionalmente eficaces para matar. Además, tienen en su haber un alto número de muertes en sus enfrentamientos.</li>
+					<li>"SON LETALES, SON UNA MÁQUINA PARA MATAR", así el periódico The New York Times describe al ejército y a la marina de México.</li>
+					<li>En combates urbanos, los ejércitos matan a una persona por cada 4 heridos. En México, en la llamada "guerra contra el narco", los militares matan a 8 personas por cada herido, los marinos matan a 30.</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+</body>
+<body>
+	<a href="javascript:history.back()">
+		<center><img src="images/azul.png" alt="Regresar" height="98" width="336"></center>
+	</a>
+</body>
+<script>
+				// Ocultar la pantalla de carga después de 8 segundos
+				setTimeout(function() {
+					var loader = document.getElementById("loader");
+					loader.style.display = "none"; // Oculta la pantalla de carga
+				}, 2000);
+			</script>
+		</body>
+</html>

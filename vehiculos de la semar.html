@@ -1,0 +1,196 @@
+﻿<html>
+<head>
+<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+			text-align: center;
+			background: linear-gradient(135deg, #4BB543, #1E90FF);
+			padding: 20px;
+			border-radius: 10px;
+		}
+		.image {
+			margin-top: 20px;
+			border: 2px solid yellow;
+			border-radius: 5px;
+		}
+		.text {
+			margin-top: 4px;
+			text-align: left;
+			background-color: white;
+			padding: 10px;
+			border: 4px solid #B80000;
+			border-radius: 5px;
+		}
+		
+		.container {
+			text-align: center;
+		}
+		.image-text {
+			margin-top: 10px;
+			font-size: 18px;
+			color: #000000;
+		}
+			#loader {
+						position: fixed;
+						left: 0;
+						top: 0;
+						width: 100%;
+						height: 100%;
+						z-index: 9999;
+						background-color: #fff;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+
+					#loader img {
+						width: 500px;
+						height: 243px;
+					}
+	</style>
+	<title>Vehiculos</title>
+	<script>
+		// Cambia el fondo entre verde y azul cada 5 segundos
+		setInterval(function() {
+			var container = document.querySelector('.container');
+			var color = container.style.background.includes('#4BB543') ? '#1E90FF' : '#4BB543';
+			container.style.background = 'linear-gradient(135deg, ' + color + ', #1E90FF)';
+		}, 5000);
+	</script>
+</head>
+<body>
+				<div id="loader">
+					<img src="images/Loading.gif" alt="Loading...">
+				</div>
+<body>
+	<div class="container">
+		<img src="images/ural.png" width="600" height="500" class="image">
+
+		<div class="text">
+				<center><p><font size="6" color="51091E">
+					Vehiculos que usa la marina
+				</p></center></font>
+				<p>URAL</p>
+				<p>Características Principales:</p>
+				<li>Modelo:4320-31</li>
+				<li>Velocidad Max: 80 Km/hr</li>
+				<li>Capacidad de carga:	11000 Kg</li>
+				<li>Peso bruto de remolque:	12000 Kg</li>
+				<li>Angulo max de ascenso: 32 grados</li>
+				<li>Potencia:
+				176 Kw (240hp)</li>
+				<li>Motor
+				Diesel: V-8</li>
+				<li>Capacidad:
+				27 Elementos</li>
+				<img src="images/gamma.png" width="200" height="200" align=left>
+				<p>GAMMA GOAT</p>
+				<p>Características Principales:</p>
+				<li>Marca:
+				M-561</li>
+				<li>Tipo:
+				GAMMA GOAT</li>
+				<li>Modelo:
+				1970</li>
+				<li>Capacidad:
+				11 Elementos</li>
+				<li>Motor:
+				Diesel</li>
+				<img src="images/anfi.png" width="200" height="200" align=left>
+				<p>ANFIBIO APC-70</p>
+				<p>Características Principales:</p>
+				<li>Marca:
+				IRTISH</li>
+				<li>Tipo:
+				Anfibio blindado</li>
+				<li>Modelo:
+				APC-70 1970</li>
+				<li>Capacidad:
+				10 elementos</li>
+				<li>Motor:
+				Diesel</li>
+				<img src="images/comando.png" width="200" height="200" align=left>
+				<p>COMANDO</p>
+				<p>Características Principales:</p>
+				<li>Marca:
+				FREIGHTLINER</li>
+				<li>Tipo:
+				Comando</li>
+				<li>Modelo:
+				2008</li>
+				<li>Capacidad:
+				42 Elementos</li>
+				<li>Motor:
+				Diesel</li>
+				<img src="images/unimog.png" width="200" height="200" align=left>
+				<p>UNIMOG</p>
+				<p>Características Principales:</p>
+				<li>Marca:
+				Mercedes-Benz</li>
+				<li>Tipo:
+				Unimog</li>
+				<li>Modelo:
+				U-4000</li>
+				<li>Motor:
+				Diesel</li>
+				<img src="images/minicomando.png" width="200" height="200" align=left>
+				<p>MINICOMANDO</p>
+				<p>Características Principales:</p>
+				<li>Marca:
+				Ford</li>
+				<li>Tipo:
+				Minicomando</li>
+				<li>Modelo:
+				2008</li>
+				<li>Capacidad:
+				11 elementos</li>
+				<li>Motor:
+				Gasolina</li>
+				<img src="images/ambulancia.png" width="200" height="200" align=left>
+				<p>AMBULANCIA</p>
+				<p>Características Principales:</p>
+				<li>Marca:
+				Mercedes Benz</li>
+				<li>Tipo:
+				Ambulancia</li>
+				<li>Modelo:
+				2008</li>
+				<li>Capacidad en metros:
+				2.0 m3</li>
+				<li>Motor:
+				Gasolina</li>
+				<li>Transporta:
+				5 elementos</li>
+				<img src="images/jeep.png" width="200" height="200" align=left>
+				<p>JEEP</p>
+				<p>Características Principales:</p>
+				<li>Marca:
+				JEEP</li>
+				<li>Tipo:
+				JEEP</li>
+				<li>Modelo:
+				1983</li>
+				<li>Capacidad:
+				4 elementos</li>
+				<li>Motor:
+				Gasolina</li>
+		</div>
+	</div>
+</body>
+<body>
+	<a href="javascript:history.back()">
+		<center><img src="images/azul.png" alt="Regresar" height="98" width="336"></center>
+	</a>
+</body>
+<script>
+				// Ocultar la pantalla de carga después de 8 segundos
+				setTimeout(function() {
+					var loader = document.getElementById("loader");
+					loader.style.display = "none"; // Oculta la pantalla de carga
+				}, 2000);
+			</script>
+		</body>
+</html>
